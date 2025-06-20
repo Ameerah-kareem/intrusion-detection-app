@@ -9,6 +9,8 @@ import os
 
 st.set_page_config(page_title="Network Intrusion Detector", page_icon="🛡️", layout="centered")
 
+st.image("images/intrusion_logo.jpg", use_column_width=True)
+
 @st.cache_resource
 def load_assets():
     model = joblib.load("gb_model_final.pkl")
