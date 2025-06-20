@@ -10,7 +10,7 @@ import os
 st.set_page_config(page_title="Network Intrusion Detector", page_icon="🛡️", layout="centered")
 
 # Sidebar navigation
-page = st.sidebar.selectbox("Navigate", ["🔍 Detection", "ℹ️ About"])
+page = st.selectbox("Navigate", ["🔍 Detection", "ℹ️ About"])
 
 st.image("images/intrusion_logo.jpg", use_container_width=True)
 
